@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="PT-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-lirou interprise</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+  
+    <div class="box">Chicken store 🛒</div>
+    <div class="controls">
+      <input type="text" id="searchInput" placeholder="Search by name...">
+      <button onclick="ordenarNome()" id="ordenarNome">Sort by name</button>
+      <button onclick="ordenarPreco()" id="ordenarPreco">Sort by price</button>
+  </div>
+  <div id="produtosContainer" class="produtos"></div>
+  <script src="src/js/script.js"></script>
+    <div id="produtos"></div>
+    <script src="js/js.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+      integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+      crossorigin=""
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/leaflet.locatecontrol/dist/L.Control.Locate.min.css"
+    />
+    <link rel="stylesheet" href="styles/styles.css" />
+    <script
+      src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+      integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+      crossorigin=""
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/leaflet.locatecontrol/dist/L.Control.Locate.min.js"
+      charset="utf-8"
+    ></script>
+    <script src="js/js.js" defer></script>
+  
+  </head>
+  <body onload="loadMap()">
+  </body>
+</html>
+</body>
